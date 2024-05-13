@@ -28,7 +28,7 @@ class PodcastManager {
     this.currentDownload = null
 
     this.failedCheckMap = {}
-    this.MaxFailedEpisodeChecks = 24
+    this.MaxFailedEpisodeChecks = 999
   }
 
   getEpisodeDownloadsInQueue(libraryItemId) {
